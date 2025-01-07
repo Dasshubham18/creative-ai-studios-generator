@@ -47,10 +47,14 @@ const About = () => {
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.6 }}
           >
-            <h3 className="text-2xl font-bold text-primary mb-4">Our Mission</h3>
-            <p className="text-muted-foreground">
-              To bridge the gap between AI technology and practical business solutions, empowering organizations to thrive in the digital age through innovative strategies and expert guidance.
-            </p>
+            <Card className="h-full hover:shadow-lg transition-shadow duration-300">
+              <CardContent className="p-6">
+                <h3 className="text-2xl font-bold text-primary mb-4">Our Mission</h3>
+                <p className="text-muted-foreground">
+                  To bridge the gap between AI technology and practical business solutions, empowering organizations to thrive in the digital age through innovative strategies and expert guidance.
+                </p>
+              </CardContent>
+            </Card>
           </motion.div>
 
           <motion.div
@@ -58,10 +62,14 @@ const About = () => {
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.6 }}
           >
-            <h3 className="text-2xl font-bold text-primary mb-4">Our Vision</h3>
-            <p className="text-muted-foreground">
-              To be the leading force in AI-driven business transformation, setting new standards for innovation and success in the digital ecosystem.
-            </p>
+            <Card className="h-full hover:shadow-lg transition-shadow duration-300">
+              <CardContent className="p-6">
+                <h3 className="text-2xl font-bold text-primary mb-4">Our Vision</h3>
+                <p className="text-muted-foreground">
+                  To be the leading force in AI-driven business transformation, setting new standards for innovation and success in the digital ecosystem.
+                </p>
+              </CardContent>
+            </Card>
           </motion.div>
         </div>
 
